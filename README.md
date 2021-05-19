@@ -25,4 +25,4 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/648536139677958156/
 
 ## Authors
 
-[Rimantas & Donatas](https://donkup.github.io/12-coming-soon/)
+[Rimantas](https://donkup.github.io/12-coming-soon/)

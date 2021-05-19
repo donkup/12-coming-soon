@@ -1,6 +1,6 @@
 const socialsData = [
     {
-        href: '#',
+        href: 'https://www.facebook.com/donatas.kuprys.9/',
         icon: 'facebook'
     },
     {
@@ -16,11 +16,11 @@ const socialsData = [
         icon: 'tumblr'
     },
     {
-        href: '#',
+        href: 'https://www.instagram.com/donceindakichen/',
         icon: 'instagram'
     },
     {
-        href: '#',
+        href: 'https://www.linkedin.com/in/donatas-kuprys-8b7aa1158/',
         icon: 'linkedin'
     },
     {

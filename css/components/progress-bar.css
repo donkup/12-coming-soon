@@ -1,0 +1,25 @@
+.progress-bar {
+  width: 100%;
+}
+.progress-bar > .top {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.progress-bar > .top > .name {
+  color: var(--color-grey);
+}
+.progress-bar > .top > .proc {
+  float: right;
+  color: var(--color-grey);
+}
+.progress-bar > .progress {
+  width: 100%;
+  height: 3px;
+  background-color: #d6d2d2;
+}
+.progress-bar > .progress > .bar {
+  width: 80%;
+  height: 100%;
+  background-color: blue;
+}

@@ -1,4 +1,4 @@
-  
+
 // IMPORT
 import { Clock } from "./components/clock/Clock.js";
 import { socials } from "./components/socials/socials.js";
@@ -13,7 +13,7 @@ socials('footer .socials', socialsData);
 let count = 0;
 
 const timer1 = setInterval(() => {
-    if ( count < 10){
+    if (count < 10) {
         console.log(count++);
     } else {
         clearInterval(timer1);

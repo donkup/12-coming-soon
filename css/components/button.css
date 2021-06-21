@@ -1,0 +1,10 @@
+button {
+  padding: 0 20px;
+  color: #fff;
+  margin-top: 50px;
+  display: inline-block;
+  float: right;
+  background-color: var(--color-secondary);
+  line-height: 40px;
+  border: none;
+}

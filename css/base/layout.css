@@ -30,9 +30,9 @@
 .bottom-links > div::after {
   display: inline-block;
   content: '';
-  width: 4px;
+  width: 2px;
   height: 15px;
-  background-color: red;
+  background-color: #fff;
   position: absolute;
   left: -10px;
   top: 50%;

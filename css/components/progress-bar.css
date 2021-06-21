@@ -21,5 +21,20 @@
 .progress-bar > .progress > .bar {
   width: 80%;
   height: 100%;
+}
+.progress-bar .bar > .loading {
+  width: 100%;
   background-color: blue;
+  height: 100%;
+  animation-name: loading;
+  animation-duration: 5s;
+}
+
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }

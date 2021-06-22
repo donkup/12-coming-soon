@@ -6,10 +6,13 @@ form {
   color: var(--color-grey);
 }
 form > input {
-  margin-right: 30px;
   line-height: 40px;
   border: none;
+  width: 46%;
   border-bottom: 2px solid var(--color-grey);
+}
+form > input:nth-of-type(2) {
+  float: right;
 }
 form > textarea {
   margin-top: 50px;

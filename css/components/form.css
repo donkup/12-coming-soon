@@ -14,6 +14,10 @@ form > input {
 form > input:nth-of-type(2) {
   float: right;
 }
+.hero form > input {
+  background-color: transparent;
+  border-color: var(--color-light);
+}
 form > textarea {
   margin-top: 50px;
   width: 100%;

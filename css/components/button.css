@@ -3,7 +3,6 @@ button {
   color: #fff;
   margin-top: 50px;
   display: inline-block;
-  float: right;
   background-color: var(--color-secondary);
   line-height: 40px;
   border: none;
@@ -11,6 +10,7 @@ button {
   cursor: pointer;
   box-shadow: 0 2px 8px purple;
   transition: all 0.5s;
+  text-align: center;
 }
 .btn:hover {
   box-shadow: 0 4px 8px black;

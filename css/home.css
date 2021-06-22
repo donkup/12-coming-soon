@@ -54,6 +54,13 @@
   font-size: 20px;
   color: var(--color-grey);
 }
+.hero form > input {
+  width: 100%;
+  color: var(--color-dark);
+}
+.hero form ::placeholder {
+  color: var(--color-light);
+}
 
 /* MAIN CONTENT SECTION */
 main > .row-big > div {
@@ -77,6 +84,9 @@ main > .row-big > div {
 }
 .section-description > a:hover {
   text-decoration: underline;
+}
+main form > button {
+  float: right;
 }
 
 /* FOOTER SECTION */

@@ -16,7 +16,7 @@ const socialsData = [
         icon: 'tumblr'
     },
     {
-        href: 'https://www.instagram.com/donceindakichen/',
+        href: 'https://www.instagram.com/donceindakitchen/',
         icon: 'instagram'
     },
     {

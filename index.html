@@ -37,10 +37,10 @@
                 <h2 class="section-title">Have any question</h2>
                 <p class="section-description">You can use contact form below or contact us via e-mail at: <a href="trendytheme.net@gmail.com">trendytheme.net@gmail.com</a>. Contact form is fully working and very easy to costomize.</p>
                 <form>
-                    <input id="name" type="text" placeholder="Name" required>
-                    <input id="e-mail" type="email" placeholder="E-mail" required>
-                    <textarea placeholder="Message"></textarea>
-                    <button class="btn" type="submit">Send Message</button>
+                    <input data-validation="name" id="message_name" type="text" placeholder="Name" required>
+                    <input data-validation="email" id="message_email" type="email" placeholder="Email" required>
+                    <textarea data-validation="text" id="message_text" placeholder="Message" required maxlength="20"></textarea>
+                    <button class="btn" type="submit">Send message</button>
                 </form>
             </div>
         </div>

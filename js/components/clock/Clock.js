@@ -1,4 +1,3 @@
-  
 class Clock {
     constructor(selector, targetDate) {
         this.selector = selector;

@@ -1,13 +1,13 @@
 .toast {
   display: flex;
   gap: 20px;
-  min-width: 200px;
   width: 100%;
   max-width: 300px;
   position: fixed;
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 9999;
   padding: 20px;
   color: #fff;
   line-height: 28px;
@@ -45,6 +45,9 @@
   display: inline-block;
   font-size: 18px;
   cursor: pointer;
+}
+.toast > .texts {
+  width: 100%;
 }
 .toast > .texts > .title {
   margin-bottom: 10px;

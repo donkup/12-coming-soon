@@ -1,20 +1,20 @@
 .mouse {
   display: inline-block;
-  width: 40px;
-  height: 65px;
+  width: 34px;
+  height: 55px;
   border: 4px solid #fff;
   border-radius: 20px;
   position: relative;
 }
-.mouse > .weel {
+.mouse > .wheel {
   display: inline-block;
   width: 4px;
   height: 8px;
   background-color: #fff;
-  position: absolute;
-  top: 10px;
-  left: calc(50% - 2px);
   border-radius: 2px;
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 2px);
   animation-name: scroll;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -22,14 +22,14 @@
 
 @keyframes scroll {
   0% {
-    top: 10px;
+    top: 8px;
     opacity: 1;
   }
-  50% {
+  30% {
     opacity: 1;
   }
   100% {
-    top: 40px;
+    top: 30px;
     opacity: 0;
   }
 }
